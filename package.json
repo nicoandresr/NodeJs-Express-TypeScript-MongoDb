@@ -1,0 +1,27 @@
+{
+  "name": "serfid-u-backend",
+  "version": "1.0.0",
+  "description": "Starter server with nodejs, express, typescrit and mongodb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoandresr/NodeJs-Express-TypeScript-MongoDb.git"
+  },
+  "author": "NicoandresR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicoandresr/NodeJs-Express-TypeScript-MongoDb/issues"
+  },
+  "homepage": "https://github.com/nicoandresr/NodeJs-Express-TypeScript-MongoDb#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.2"
+  },
+  "devDependencies": {
+    "tsd": "^0.6.5",
+    "typescript": "^1.8.10"
+  }
+}
