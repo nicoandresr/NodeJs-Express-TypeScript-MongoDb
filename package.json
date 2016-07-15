@@ -1,7 +1,7 @@
 {
   "name": "nodejs-express-typescript-mongodb",
   "version": "1.0.0",
-  "description": "Starter server with nodejs, express, typescrit and mongodb.",
+  "description": "Starter http server with nodejs, express, typescrit and mongodb.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
