@@ -1,5 +1,5 @@
 {
-  "name": "serfid-u-backend",
+  "name": "nodejs-express-typescript-mongodb",
   "version": "1.0.0",
   "description": "Starter server with nodejs, express, typescrit and mongodb.",
   "main": "index.js",
