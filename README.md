@@ -1,2 +1,2 @@
 # NodeJs-Express-TypeScript-MongoDb
-Starter http server with nodejs, express, typescrit and mongodb.
+Starter http server with nodejs, express, typescript and mongodb.
