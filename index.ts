@@ -8,7 +8,6 @@ module AppBackEnd {
     export class Server {
 
         private _app: express.Application;
-        private _msg: string = "Hello world";
         private _consoleLogStartMsg: string = 'App listening on port: ';
         private _uri: string = "mongodb://localhost:27017/test";
 
@@ -25,12 +24,10 @@ module AppBackEnd {
 
         private mongoConnectHandler(error: mongodb.MongoError, db: mongodb.Db, port: number): void {
             this.mongoErrorHandler(error);
-            let result: string;
+            let result: string = "";
             db.collection('test').find().toArray((error, docs) => {
                 this.mongoErrorHandler(error);
-                docs.forEach((doc) => {
-                    result += JSON.stringify(doc);
-                });
+                result = JSON.stringify(docs);
             });
             this._app.get('/', (req, res) => { res.send(result) });
             this._app.listen(port, () => console.log(this._consoleLogStartMsg + port));
